@@ -1,4 +1,6 @@
-# hotspot
+# Hot Spot!
+
+SpotLights and LightShows!
 
 New Social Media Platform in the making! Here's a welcome page (Just a start). 
 Currently learning Back End Development to become Full Stack.
