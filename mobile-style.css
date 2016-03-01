@@ -1,0 +1,48 @@
+/* New Mobile Style */
+
+@media only screen and (max-width: 991px) {
+	
+	/* --- Top Bar Navigation --- */
+	
+	#menu-icon {
+		float: right;
+		height: 50px;
+		width: 50px;
+		display: block;
+		border-left: 1px solid black;
+	}
+	
+	.navigate {
+		min-width: 100px;
+	}
+	
+	.nav-list {
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		display: none;
+	}
+	
+	.signing-div {
+		position: absolute;
+		float: left;
+		min-width: 175px;
+	}
+	
+	.sign-btn {
+		display: none;
+	}
+	
+	/* --- Body Container --- */
+	
+	#slides {
+		width: 98%;
+		display: block;
+		margin: auto;
+	}
+	
+	.c-text {
+		font-size: 21px;
+	}
+	
+}

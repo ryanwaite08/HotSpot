@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>HotSpot</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="http://ryanwaite28.github.io/social-media/img/flame-3.png" sizes="20x20">
+		<link rel="stylesheet" type="text/css" href="http://ryanwaite28.github.io/my-cdn/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 991px)" href="mobile-style.css">
+		<script src="http://ryanwaite28.github.io/my-cdn/js/jquery.js"></script>
+		<script src="http://ryanwaite28.github.io/my-cdn/js/angular.js"></script>
+		<script src="http://ryanwaite28.github.io/my-cdn/js/slides-js.js"></script>
+		<script src="script.js"></script>
+	</head>
+	
+	<body>
+		
+		<div id="top-div" class="top-div">
+		
+			<a title="HotSpot Home Page" href=""><img id="logo" src="http://ryanwaite28.github.io/social-media/img/flame-3.png"/></a>
+		
+			<h3 class="top-text">HotSpot</h3>
+			
+			<a title="Menu DropDown" href="#"><img id="menu-icon" src="http://i.imgur.com/huBw3xR.png"/></a>
+			
+			<nav class="navigate">
+				<ul class="nav-list">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Trending</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Featured</a></li>
+					<li><a href="#">LightShows</a></li>
+					<li><a href="#">SpotLights</a></li>
+					<li><a href="#">More</a></li>
+				</ul>
+			</nav>
+			
+			<div id="signing-div" class="signing-div">
+				
+				<div class="drop-down">
+					<button title="Sign In Button" id="signin-btn" class="sign-btn brd-one" type="button">Sign In</button>
+					<form id="signin-form1">
+						<input id="signin-email" type="text" placeholder="Email"/><br><br>
+						<input id="signin-password" type="password" placeholder="Password"/><br><br>
+						<input id="signin-submit" type="submit" value="Submit"/>
+					</form>
+				</div>
+				
+				<button title="Sign Up Button" id="signup-btn" class="sign-btn brd-one" type="button">Sign Up</button>
+				
+				<!-- The Modal -->
+				<div id="signup-modal" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content">
+						<div class="modal-header">
+							<span id="close-modal" class="close close-modal">×</span>
+							<h2>Modal Header</h2>
+						</div>
+						
+						<div class="modal-body">
+							<p>Some text in the Modal Body</p>
+							<p>Some other text...</p>
+						</div>
+						
+						<div class="modal-footer">
+							<h3>Modal Footer</h3>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		
+		</div>
+		
+		<div id="main-contain" class="grand-container container">
+		
+			<div class="row">
+				
+				<div class="col-md-12">
+					<h1 class="txt-sdw t-one text-center"><b>HotSpot</b></h1>
+					<h3 class="txt-sdw text-center">See who and what has the <i>SpotLight!</i></h3>
+					<center>
+						<form id="search-form-w" class="search-form-w">
+							<input type="text" autocomplete="on" class="search-input-w" id="search-input-w" placeholder="Search">
+							<input title="Search SpotLights, LightShows, and More!" type="button" id="search-btn" class="search-btn brd-one" value="Submit">
+						</form>
+					</center>
+				</div>
+				
+			</div>
+			
+			<hr>
+			
+			<div class="row">
+				
+				<div class="col-md-12">
+					
+					<div id="slides">
+						<div class="">
+							<h1 class="c-text text-center">This Month SpotLight!</h1>
+							<img class="c-img" src="http://i.imgur.com/EPUlp9X.jpg" alt="Chania">
+						</div>
+
+						<div class="">
+							<h1 class="c-text text-center">This Week SpotLight</h1>
+							<img class="c-img" src="http://www.planwallpaper.com/static/images/i-should-buy-a-boat.jpg" alt="Chania">
+						</div>
+
+						<div class="">
+							<h1 class="c-text text-center">See What's Trending!</h1>
+							<img class="c-img" src="https://newevolutiondesigns.com/images/freebies/hd-widescreen-wallpaper-10.jpg" alt="Flower">
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<hr>
+			
+			<div class="row">
+			
+				<div class="col-md-6">
+					<img alt="Presenter Image" id="home-img" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQQaVLj9QlsTI140UAzYH6BWoR84d_uM199KJXOqx2o6D1zA47jOQ">
+				</div>
+				
+				<div class="col-md-6" style="padding-left: 5%; padding-right: 5%;">
+					<h1 style="margin-top: 7%;" class="text-center"><b>Welcome to HotSpot!</b></h1>
+					<h3 class="text-center">This is a new and cool way to connect with people 
+						and display who you are!
+					</h3>
+					<p class="text-center">Everyone has thier own SpotLight! You choose 
+						what you want to have in your SpotLight, in addition to the other posts you make. 
+						You can also make it to SpotLight of the month, 
+						depending on your LightShow! (Which is your account activity).
+					</p>
+					<p class="text-center">The intention of HotSpot is to better notify people of the things you do. 
+						If you're an Artist, Dancer, or anything else, you can give realtime updates to your followers! 
+						The best thing about HotSpot, is it's customizations! You can choose what kind of notifications 
+						to send and receive as a user, as well as customizing your profile to the extreme!
+					</p>
+				</div>
+			
+			</div>
+			
+			<hr style="border-color: #b30000;">
+			
+			<div class="row">
+			
+				<div class="col-md-12">
+					<ul id="fl-1" class="footer-links">
+						<li><a title="" href="">Information</a></li>
+						<li><a title="" href="">About Us</a></li>
+						<li><a title="" href="">Contact Us</a></li>
+						<li><a title="" href="">Report Issue</a></li>
+						<li><a title="" href="">HotSpot Team</a></li>
+						<li><a title="" href="">Careers</a></li>
+					</ul>
+
+					<ul id="fl-2" class="footer-links">
+						<li><a title="" href="">FAQs</a></li>
+						<li><a title="" href="">Community</a></li>
+						<li><a title="" href="">Locations</a></li>
+						<li><a title="" href="">Mobile</a></li>
+						<li><a title="" href="">Terms</a></li>
+						<li><a title="" href="">More</a></li>
+					</ul>
+				</div>
+			
+			</div>
+		
+		</div>
+
+	</body>
+	
+</html>
